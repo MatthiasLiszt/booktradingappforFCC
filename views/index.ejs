@@ -1,0 +1,35 @@
+<html>
+<title> manage book trading club for FCC </title> 
+
+    <link rel="stylesheet" href="chaos.css">
+
+<body>
+<div id="logbuttons">
+<a href="/">Home</a>
+<% if(authenticated==false){ %>
+<a href="/register">Register</a>
+<%}%>
+<% if(authenticated==false){ %>
+<a href="/login" >Log In</a>
+<% }else{ %>
+<a href="/logout">Log Out</a>
+<% } %>
+<% if(authenticated==true){ %>
+<a href="/update">Update User Data</a>
+<%}%>
+<% if(authenticated){ %>
+<a href="/trades">Trade Requests</a>
+<%}%>
+</div>
+<h1>book trading club</h1>
+
+<form action="/addbook" method="get">
+<label for="addnewbook"></label>
+<input type="text" name="addnewbook">
+<input type="submit" value="add">
+</form>
+
+<div id="booklist"><%-books%></div>
+</body>
+
+</html>

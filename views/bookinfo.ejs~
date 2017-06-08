@@ -1,0 +1,25 @@
+<html>
+<body>
+<h1>book info</h1>
+
+<div id="bookinfo"><%-bookinfo%></div>
+<br></br>
+
+<%if(bookowner==user){ %>
+<form action="/deletebook" method="get">
+<label for="book">
+<input type="hidden" name="book" value="<%=title%>" ></input>
+<button>take back</button>
+</label>
+</form>
+<%}if(a&&bookowner!=user){%>
+<form action="/tradebook" method="get">
+<label for="book">
+<input type="hidden" name="book" value="<%=title%>" ></input>
+<button>trade</button>
+</label>
+</form>
+<%}%>
+<br></br><a href="/">Back</a>
+</body>
+</html>

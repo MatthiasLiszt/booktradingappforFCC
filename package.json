@@ -1,0 +1,46 @@
+{
+  "name": "booktradingappforfcc",
+  "version": "1.0.0",
+  "description": "booktrading app for FCC with mongoose",
+  "main": "server.js",
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.15.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.2",
+    "express": "^4.13.3",
+    "express-session": "~1.14.1",
+    "method-override": "~2.3.6",
+    "mongodb": "^2.0.42",
+    "mongoose": "^4.10.5",
+    "morgan": "~1.7.0",
+    "passport": "~0.3.2",
+    "path": "^0.12.7",
+    "save": "^2.3.0"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthiasLiszt/booktradingappforFCC.git"
+  },
+  "keywords": [
+    "book",
+    "trading",
+    "mongoose",
+    "node.js"
+  ],
+  "author": "Matthias Liszt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthiasLiszt/booktradingappforFCC/issues"
+  },
+  "homepage": "https://github.com/MatthiasLiszt/booktradingappforFCC#readme"
+}

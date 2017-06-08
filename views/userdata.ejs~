@@ -1,0 +1,11 @@
+<home>
+<body>
+<ul>
+<li>user <%udata.username%></li>
+<li><%udata.fullname%></li>
+<li>from &nbsp;<% udata.city%></li>
+<li>in &nbsp;<%udata.state%></li>
+</ul>
+<br></br><a href="/">Back</a>
+</body>
+</home>

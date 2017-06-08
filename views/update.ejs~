@@ -1,0 +1,17 @@
+<body>
+<br></br>
+<h1> Update Your Registration Data For Book Trading Club </h1>
+
+<form action="/updatecheck" method="post">
+<label for="fullname">Full Name: </label>
+<input type="text" name="fullname"><br></br>
+<label for="city">City: </label>
+<input type="text" name="city"><br></br>
+<label for="state">State: </label>
+<input type="text" name="state"><br></br>
+<input type="submit" value="register" >
+</form> 
+
+
+</body>
+</html> 

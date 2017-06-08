@@ -1,0 +1,16 @@
+<html>
+<body>
+<br></br>
+<h1>Book Trading Club Login </h1>
+
+<form action="/logincheck" method="post">
+<label for="username">Username: </label>
+<input type="text" name="username"><br></br>
+<label for="password">Password: </label>
+<input type="text" name="password"><br></br>
+<input type="submit" value="Login!" >
+</form> 
+
+
+</body>
+</html>
